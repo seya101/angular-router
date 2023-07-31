@@ -3,4 +3,7 @@
 
 <button class="btn btn-info" (click)="onLoadServerPage(1)">Load Servers 1</button>
 
+<button class="btn btn-default" (click)="onLogin()" *ngIf="!hideBtn">Login</button>
+<button class="btn btn-danger" (click)="onLogout()" *ngIf="hideBtn">Logout</button>
+
 
